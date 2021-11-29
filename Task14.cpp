@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-	setlocale(LC_ALL, "ru");
+	setlocale(0,"");
 	int i[]{ 0,1,2,3,4,5,6,7,8,9 };
 	short s[]{ 0,1,2,3,4,5,6,7,8,9 };
 	long l[]{ 0,1,2,3,4,5,6,7,8,9 };
@@ -10,35 +10,35 @@ int main() {
 	char c[]{ '0','1','2','3','4','5','6','7','8','9' };
 	bool b[]{ 0,1,0,1,0,1,0,1,0,1 };
 	string ss[]{ "0","1","2","3","4","5","6","7","8","9" };
-	cout << "[+]Ìàññèâ INT:\n";
+	cout << "[+]ÃŒÃ Ã±Ã±Ã¨Ã¢ INT:\n";
 	for (int i2 = 0; i2 < 10; i2++)
 		cout << "[+]i[" << i2 << "] = " << i[i2] << endl;
 	cout << endl;
-	cout << "[+]Ìàññèâ SHORT:\n";
+	cout << "[+]ÃŒÃ Ã±Ã±Ã¨Ã¢ SHORT:\n";
 	for (int i2 = 0; i2 < 10; i2++)
 		cout << "[+]s[" << i2 << "] = " << s[i2] << endl;
 	cout << endl;
-	cout << "[+]Ìàññèâ LONG:\n";
+	cout << "[+]ÃŒÃ Ã±Ã±Ã¨Ã¢ LONG:\n";
 	for (int i2 = 0; i2 < 10; i2++)
 		cout << "[+]l[" << i2 << "] = " << l[i2] << endl;
 	cout << endl;
-	cout << "[+]Ìàññèâ FLOAT:\n";
+	cout << "[+]ÃŒÃ Ã±Ã±Ã¨Ã¢ FLOAT:\n";
 	for (int i2 = 0; i2 < 10; i2++)
 		cout << "[+]f[" << i2 << "] = " << f[i2] << endl;
 	cout << endl;
-	cout << "[+]Ìàññèâ DOUBLE:\n";
+	cout << "[+]ÃŒÃ Ã±Ã±Ã¨Ã¢ DOUBLE:\n";
 	for (int i2 = 0; i2 < 10; i2++)
 		cout << "[+]d[" << i2 << "] = " << d[i2] << endl;
 	cout << endl;
-	cout << "[+]Ìàññèâ CHAR:\n";
+	cout << "[+]ÃŒÃ Ã±Ã±Ã¨Ã¢ CHAR:\n";
 	for (int i2 = 0; i2 < 10; i2++)
 		cout << "[+]c[" << i2 << "] = " << c[i2] << endl;
 	cout << endl;
-	cout << "[+]Ìàññèâ BOOL:\n";
+	cout << "[+]ÃŒÃ Ã±Ã±Ã¨Ã¢ BOOL:\n";
 	for (int i2 = 0; i2 < 10; i2++)
 		cout << "[+]b[" << i2 << "] = " << b[i2] << endl;
 	cout << endl;
-	cout << "[+]Ìàññèâ STRING:\n";
+	cout << "[+]ÃŒÃ Ã±Ã±Ã¨Ã¢ STRING:\n";
 	for (int i2 = 0; i2 < 10; i2++)
 		cout << "[+]ss[" << i2 << "] = " << ss[i2] << endl;
 	cout << endl;
